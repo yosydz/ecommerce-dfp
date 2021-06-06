@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Electro</title>
+    <title>Berempat Clothes</title>
 
     <link rel="shortcut icon" href="{{asset('favicon.png')}}" />
     <!-- Google font -->
@@ -63,9 +63,9 @@
         <div id="top-header">
             <div class="container">
                 <ul id="head_links" class="header-links pull-left">
-                    <li><a href="#"><i class="fa fa-phone"></i> +000-00-00-00</a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o"></i> support@electro.com</a></li>
-                    <li><a href="#"><i class="fa fa-map-marker"></i> Banani, Road 11</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i> +62-813-4226-0366</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> office@berempat.com</a></li>
+                    <li><a href="#"><i class="fa fa-map-marker"></i> Jl. SunanKalijaga 16, Malang</a></li>
                 </ul>
                 <ul class="header-links pull-right">
                     @if(session()->has('user'))
@@ -195,7 +195,7 @@
                 <div class="col-md-4 col-xs-6">
                     <div class="shop">
                         <div class="shop-img">
-                            <img src="./img/shop0{{$index++}}.png" alt="">
+                            <img src="./img/shop0{{$index++}}.jpg" alt="">
                         </div>
                         <div class="shop-body">
                             <h3>{{$c->name}}</h3>
