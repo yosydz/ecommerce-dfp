@@ -17,7 +17,7 @@ Route::post('admin', 'loginController@adminPosted');
 
 Route::group(['middleware' => 'admin'], function(){
 
- 
+
     Route::get("/admin_panel", 'admin_panel\dashboardController@index')->name('admin.dashboard');
 
     Route::get('admin/logout', 'loginController@adminLogout')->name('admin.logout');
@@ -44,7 +44,7 @@ Route::group(['middleware' => 'admin'], function(){
     Route::get('/admin_panel/products/delete/{id}', 'admin_panel\productsController@delete')->name('admin.products.delete');
     Route::post('/admin_panel/products/delete/{id}', 'admin_panel\productsController@destroy');
 
-    //order management 
+    //order management
     Route::get('/admin_panel/management', 'admin_panel\managementController@manage')->name('admin.orderManagement');
     Route::post('/admin_panel/management', 'admin_panel\managementController@update')->name('admin.orderUpdate');
 
@@ -72,7 +72,7 @@ Route::get('/view/{id}', 'user\userController@view')->name('user.view');
 Route::post('/view/{id}', 'user\userController@post');
 
 Route::get('/cart', 'user\userController@cart')->name('user.cart');
-Route::post('/cart', 'user\userController@confirm');
+Route::post('/cart', 'user\userController@confirm')->name('user.confirm');
 
 Route::post('/edit_cart', 'user\userController@editCart')->name('user.editCart');
 Route::post('/delete_item_from_cart', 'user\userController@deleteCartItem')->name('user.deleteCartItem');
