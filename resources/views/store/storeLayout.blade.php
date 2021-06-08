@@ -10,7 +10,7 @@
 
     <title>Berempat Clothes</title>
 
-    <link rel="shortcut icon" href="{{asset('favicon.png')}}" />
+    <link rel="shortcut icon" href="{{asset('img/logojdd.png')}}" />
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
@@ -268,12 +268,11 @@
                     <div class="col-md-3 col-xs-6" >
                         <div class="footer" >
                             <h3 class="footer-title">About Us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut.</p>
+                            <p>Produk yang kami jual dengan bahan kualitas tinggi dan jahitan premium.</p>
                             <ul class="footer-links">
-                                <li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
-                                <li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
-                                <li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+                                <li><a href="#"><i class="fa fa-map-marker"></i>Jl SunanKalijaga 16, Malang</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i>+62-813-4226-0166</a></li>
+                                <li><a href="#"><i class="fa fa-envelope-o"></i>4berempat@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -282,11 +281,11 @@
                         <div class="footer">
                             <h3 class="footer-title">Categories</h3>
                             <ul class="footer-links">
-                                <li><a href="#">Hot deals</a></li>
-                                <li><a href="#">Laptops</a></li>
-                                <li><a href="#">Smartphones</a></li>
-                                <li><a href="#">Cameras</a></li>
-                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Hoodie</a></li>
+                                <li><a href="#">Shirt</a></li>
+                                <li><a href="#">Polo Shirt</a></li>
+                                <li><a href="#">Kemeja</a></li>
+                                <li><a href="#">Blazer</a></li>
                             </ul>
                         </div>
                     </div>
