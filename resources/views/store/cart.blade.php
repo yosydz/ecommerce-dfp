@@ -95,7 +95,7 @@ label.error {
                                 echo $tot;
                                 @endphp
 
-                                TK</div></div>
+                                Rp</div></div>
 
 						</div>
 						@break
@@ -110,7 +110,7 @@ label.error {
                     </div>
                     <div class="order-col">
                         <div><strong>TOTAL</strong></div>
-                        <div ><strong class="order-total" id="totalCost">{{Session::get('price')}} TK</strong></div>
+                        <div ><strong class="order-total" id="totalCost">{{Session::get('price')}} Rp</strong></div>
                     </div>
                     @else
                     <div class="order-col">
