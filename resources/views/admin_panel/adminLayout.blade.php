@@ -27,10 +27,10 @@
         <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
                 <a class="navbar-brand brand-logo" href="{{route('admin.dashboard')}}">
-                    <div style="color: #007bff;">Electro</div>
+                    <div style="color: #007bff;">Berempat</div>
                 </a>
                 <a class="navbar-brand brand-logo-mini" href="{{route('admin.dashboard')}}">
-                    <div style="color: #007bff;">Electro</div>
+                    <div style="color: #007bff;">Berempat</div>
                 </a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center">
@@ -107,7 +107,7 @@
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
-                   
+
                 </footer>
                 <!-- partial -->
             </div>
@@ -133,7 +133,7 @@
 
     <script src="{{asset('js/dashboard.js')}}"></script>
     <script src="{{asset('js/chart.js')}}"></script>
-    
+
     <!--    Jquery Validation-->
     <script src="{{asset('js/lib/jquery.js')}}"></script>
     <script src="{{asset('js/dist/jquery.validate.js')}}"></script>
